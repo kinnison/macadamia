@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Lumberg-DIN")(type "KiCad")(uri "${KIPRJMOD}/Lumberg-DIN.pretty")(options "")(descr ""))
+)
