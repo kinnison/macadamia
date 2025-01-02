@@ -29,7 +29,7 @@ embassy-sync = { version = "0.6.1", features = ["defmt"] }
 embassy-time = { version = "0.4.0", features = [
     "defmt",
     "defmt-timestamp-uptime",
-    "tick-hz-32_768",
+    "tick-hz-512_000",
 ] }
 panic-probe = { version = "0.3", features = ["print-defmt"] }
 

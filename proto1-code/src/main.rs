@@ -45,9 +45,10 @@ async fn latency_measure() {
         }
         let elapsed = Instant::now().saturating_duration_since(start);
         info!(
-            "Elapsed: {}µs, total gap: {}µs",
+            "Elapsed: {}µs, total gap: {}µs ({}µs/ms)",
             elapsed.as_micros(),
-            total_gap.as_micros()
+            total_gap.as_micros(),
+            total_gap.as_micros() / 10_000,
         );
     }
 }
